@@ -29,11 +29,11 @@ public class MainMenu: MonoBehaviour
     }
     public void EasyG()
     {
-        SceneManager.LoadScene("StartGame");
+        SceneManager.LoadScene("Easy");
     }
     public void NormalG()
     {
-        SceneManager.LoadScene("StartGame");
+        SceneManager.LoadScene("Hard");
     }
     public void HardG()
     {
@@ -43,5 +43,32 @@ public class MainMenu: MonoBehaviour
     {
         SceneManager.LoadScene("StartGame");
     }
+    public void BackG()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void YesG()
+    {
+        SceneManager.LoadScene("StartGame");
+    }
+    public void NoG()
+    {
+        SceneManager.LoadScene("End");
+    }
+   
+    public void EasyyG()
+    {
+        SceneManager.LoadScene("StartGame");
+    }
+    public void Hard_G()
+    {
+        SceneManager.LoadScene("StartGame");
+    }
+
+    public void HomeG()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }
 
